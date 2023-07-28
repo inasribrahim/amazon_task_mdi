@@ -20,24 +20,22 @@
       <maven.source.encoding>UTF-8</maven.source.encoding>
       <suite-xml>../amazon-testng.xml</suite-xml>
       <java.faker.version>1.0.2</java.faker.version>
-      <allure.testng.version>2.17.3</allure.testng.version>
       <slf4j.version>2.0.7</slf4j.version>
       <tess4j.version>5.7.0</tess4j.version>
-      <allure.testng.version>2.17.3</allure.testng.version>
-     <java.faker.version>1.0.2</java.faker.version>
-
+       <java.faker.version>1.0.2</java.faker.version>
+        <extent.version>5.0.8</extent.version>
   </properties>
 
   <dependencies>
     <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>5.0.8</version>
+    </dependency>
+    <dependency>
       <groupId>com.github.javafaker</groupId>
       <artifactId>javafaker</artifactId>
       <version>${java.faker.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>io.qameta.allure</groupId>
-      <artifactId>allure-testng</artifactId>
-      <version>${allure.testng.version}</version>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
