@@ -6,6 +6,12 @@
 ### Image
 .png
 
+## Report
+Report.html
+
+## Spark offline mode
+spark/
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
